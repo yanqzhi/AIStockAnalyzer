@@ -1,0 +1,28 @@
+[application]
+name = "AI Stock Analyzer"
+environment = "development"
+
+[database]
+path = "data/ai_stock_analyzer.db"
+
+[broker]
+provider = "ibkr"
+host = "127.0.0.1"
+port = 7497
+client_id = 1
+
+[openai]
+api_key = ""
+model = "gpt-4.1-mini"
+
+[analysis]
+default_currency = "USD"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s %(levelname)s [%(name)s] %(message)s"
+file_path = "logs/application.log"
+max_bytes = 1048576
+backup_count = 5
+enable_console = true
+enable_file = true
