@@ -1,3 +1,3 @@
 # API Specification
 
-Broker interface, Data providers, Notification providers.
+Broker, AI, Notification, Data Provider interfaces.

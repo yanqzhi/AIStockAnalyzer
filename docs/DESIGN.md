@@ -1,8 +1,5 @@
 # Design
 
-Project design baseline.
+Business-driven development.
 
--   Enterprise architecture
--   Clean layering
--   Dependency injection
--   Test first
+Data -\> Engines -\> Presentation -\> Research.

@@ -4,18 +4,16 @@
 
 ### Data
 
--   IBKR
--   Market Data
--   Financial Data
--   Earnings
--   Macro
--   Forex
--   SQLite
+IBKR, Earnings, Macro, Forex, Universe, SQLite
+
+### Infrastructure
+
+Scheduler Priority Queue Rate Limiter Downloader Data Validation
 
 ### Processing
 
-Macro → Asset → FX → Country → Industry → Trend → Fundamental → Earnings
-→ Portfolio → Rule → AI
+Macro -\> Asset -\> FX -\> Country -\> Industry -\> Trend -\>
+Fundamental -\> Earnings -\> Portfolio -\> Rule -\> AI
 
 ### Presentation
 
@@ -23,15 +21,11 @@ Dashboard Telegram Reports Calendar
 
 ### Research
 
-Backtest Strategy Builder Optimization Performance
+Backtest Strategy Builder Performance Tracking
 
-## Scheduler
+## Design Rules
 
-All broker requests go through Scheduler + Queue + RateLimiter.
-
-## Design Principles
-
--   Python calculates
--   AI explains
--   Every score is backtestable
--   Every module is replaceable
+-   AI explains, Python calculates.
+-   All scores are explainable.
+-   Every strategy must be backtestable.
+-   Every module is independently replaceable.

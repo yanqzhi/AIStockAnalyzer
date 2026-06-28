@@ -1,4 +1,4 @@
 # Database Design
 
-Core tables: - historical_price - company - industry - country -
-portfolio - trade - earnings - ai_analysis
+Tables: historical_price, company, industry, country, earnings,
+portfolio, trade, ai_analysis.

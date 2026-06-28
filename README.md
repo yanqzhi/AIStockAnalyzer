@@ -2,46 +2,57 @@
 
 > Enterprise-grade AI-powered Global Investment Research Platform
 
-## Vision
+## Mission
 
-AI Stock Analyzer helps investors make explainable investment decisions
-across Stocks, ETFs, Forex and Macro markets.
+Build a production-quality platform for global investment research,
+portfolio management, screening, AI-assisted analysis and strategy
+validation.
 
-## Core Features
+## Supported Assets
 
--   Global Markets (US/JP/HK/CN)
--   ETF & Forex
--   IBKR Integration
--   SQLite Cache
--   AI Ranking
--   Telegram Report
--   PySide6 Dashboard
--   Backtest
--   Portfolio Analysis
+-   Stocks
+-   ETFs
+-   Forex
+-   Indices
+-   Gold
+-   Future extensibility: Bonds, Commodities
 
-## Architecture
+## Supported Markets
 
-Data Layer -\> Processing Engines -\> Presentation -\> Research
+-   US
+-   Japan
+-   Hong Kong
+-   China
 
-## Engines
+## Core Workflow
 
--   Macro Engine
--   Asset Engine
--   FX Engine
--   Country Engine
--   Industry Engine
--   Trend Engine
--   Fundamental Engine
--   Earnings Engine
--   Portfolio Engine
--   Rule Engine
--   AI Engine
+Universe -\> Scheduler -\> IBKR -\> SQLite -\> Engines -\> Rule Engine
+-\> AI -\> Telegram -\> Dashboard -\> Backtest
 
-## Workflow
+## Core Engines
 
-Universe → Scheduler → IBKR → SQLite → Engines → AI → Telegram /
-Dashboard
+1.  Macro Engine
+2.  Asset Engine
+3.  FX Engine
+4.  Country Engine
+5.  Industry Engine
+6.  Trend Engine
+7.  Fundamental Engine
+8.  Earnings Engine
+9.  Portfolio Engine
+10. Rule Engine
+11. AI Engine
 
-## Tech Stack
+## Technology
 
 Python, PySide6, IBKR API, SQLite, Plotly, OpenAI, uv, pytest, ruff.
+
+## Development Principles
+
+-   PEP8
+-   Type Hints
+-   Google Docstrings
+-   Test First
+-   Dependency Injection
+-   Repository Pattern
+-   Clean Architecture

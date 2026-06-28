@@ -1,53 +1,10 @@
 # RoadMap
 
-## Sprint 1
+Sprint1 Bootstrap Sprint2 Data Infrastructure Sprint3 Indicator Engine
+Sprint4 Asset Engine Sprint5 Country Engine Sprint6 Industry Engine
+Sprint7 Fundamental Engine Sprint8 Earnings Engine Sprint9 Portfolio
+Engine Sprint10 Rule Engine Sprint11 AI Engine Sprint12 Dashboard
+Sprint13 Investment Lab Sprint14 Performance Tracker Sprint15 Release
+v1.0
 
-Bootstrap
-
-## Sprint 2
-
-Broker Scheduler Rate Limiter Downloader SQLite
-
-## Sprint 3
-
-Indicator Engine
-
-## Sprint 4
-
-Asset Engine
-
-## Sprint 5
-
-Country Engine
-
-## Sprint 6
-
-Industry Engine
-
-## Sprint 7
-
-Fundamental Engine
-
-## Sprint 8
-
-Earnings Engine
-
-## Sprint 9
-
-Rule Engine
-
-## Sprint 10
-
-AI Engine
-
-## Sprint 11
-
-Dashboard
-
-## Sprint 12
-
-Backtest
-
-## Future
-
-News Fund Flow Options Multi Broker Cloud Sync
+Future - News - Options - Multi Broker - ML Ranking - Cloud Sync
