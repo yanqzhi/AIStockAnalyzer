@@ -1,41 +1,53 @@
 # RoadMap
 
-## v0.1
+## Sprint 1
 
-- [ ] Project Init
-- [ ] Connect IBKR
-- [ ] Download History
-- [ ] EMA
-- [ ] MACD
-- [ ] RSI
-- [ ] Trend Score
+Bootstrap
 
----
+## Sprint 2
 
-## v0.2
+Broker Scheduler Rate Limiter Downloader SQLite
 
-- [ ] Financial Data
-- [ ] PE PB
-- [ ] ROE
-- [ ] Earnings
+## Sprint 3
 
----
+Indicator Engine
 
-## v0.3
+## Sprint 4
 
-- [ ] Scanner
-- [ ] Portfolio
+Asset Engine
 
----
+## Sprint 5
 
-## v0.4
+Country Engine
 
-- [ ] GUI
+## Sprint 6
 
----
+Industry Engine
 
-## v1.0
+## Sprint 7
 
-- [ ] AI Report
-- [ ] Daily Report
-- [ ] Telegram
+Fundamental Engine
+
+## Sprint 8
+
+Earnings Engine
+
+## Sprint 9
+
+Rule Engine
+
+## Sprint 10
+
+AI Engine
+
+## Sprint 11
+
+Dashboard
+
+## Sprint 12
+
+Backtest
+
+## Future
+
+News Fund Flow Options Multi Broker Cloud Sync
