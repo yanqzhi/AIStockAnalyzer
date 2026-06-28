@@ -1,17 +1,55 @@
-□ 支持IBKR自动登录
+# TODO
 
-□ 股票池
+## Current Sprint
 
-□ AI评分
+-   [ ] Complete Documentation v2.0
+-   [ ] Finish Broker Infrastructure
+-   [ ] Implement Scheduler
+-   [ ] Implement Rate Limiter
+-   [ ] Historical Downloader
+-   [ ] SQLite Cache
+-   [ ] Data Validation
 
-□ Telegram
+## Next Milestones
 
-□ 日报
+### Universe
 
-□ 季报分析
+-   [ ] S&P500
+-   [ ] Nikkei 400
+-   [ ] CSI300
+-   [ ] Hang Seng
+-   [ ] ETF
+-   [ ] Forex
 
-□ 港股支持
+### Engines
 
-□ ETF支持
+-   [ ] Macro Engine
+-   [ ] Asset Engine
+-   [ ] FX Engine
+-   [ ] Country Engine
+-   [ ] Industry Engine
+-   [ ] Trend Engine
+-   [ ] Fundamental Engine
+-   [ ] Earnings Engine
+-   [ ] Portfolio Engine
+-   [ ] Rule Engine
+-   [ ] AI Engine
 
-□ Option分析
+### Presentation
+
+-   [ ] Dashboard
+-   [ ] Telegram
+-   [ ] Calendar
+
+### Research
+
+-   [ ] Backtest
+-   [ ] Strategy Builder
+-   [ ] Performance Tracker
+
+### Release
+
+-   [ ] Alpha
+-   [ ] Beta
+-   [ ] RC
+-   [ ] v1.0

@@ -1,12 +1,23 @@
-v0.1.0
+# CHANGELOG
 
-- Init Project
+## v0.1.0
 
-v0.1.1
+### Added
 
-- Connect IBKR
+-   Project Skeleton
+-   Clean Architecture
+-   Configuration Framework
+-   Main Window
+-   SQLite Infrastructure
+-   Repository Pattern
+-   Documentation Structure
 
-v0.1.2
+### Planned
 
-- EMA
-
+-   Broker Infrastructure
+-   Scheduler
+-   Downloader
+-   Analysis Engines
+-   Dashboard
+-   Telegram
+-   Backtest
